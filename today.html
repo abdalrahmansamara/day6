@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    var name = "abdalrahman";
+    var age = 22;
+    var issmart = true;
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY4 lab</title>
+</head>
+<body>
+    <script>
+        console.log("my name is " + name);
+        document.write("Welcome <br /> ");
+        document.write('i am 22 years old <br />');
+        var a = prompt("Enter your name please ", "default");
+        var b = prompt("Age? ");
+        var c = prompt("are you smart? ");
+        document.write("nice to meet you " + a);
+        if(age < b)
+        {
+            document.write("<br /> you are older than me <br />");
+
+        }
+        else if (age > b)
+        {document.write(" <br />i'm older than you <br />");}
+        else
+        {console.log("we are the same age");}
+        if(c == "yes")
+        {console.log("Excellent");}
+    </script>
+</body>
+</html>
